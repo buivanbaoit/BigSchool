@@ -1,8 +1,5 @@
 ﻿using BigSchool.Models;
-<<<<<<< HEAD
 using BigSchool.ViewModels;
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 using System;
 using System.Data.Entity;
 using System.Linq;
@@ -13,21 +10,8 @@ namespace BigSchool.Controllers
     {
         private ApplicationDbContext _dbContext;
         public HomeController()
-<<<<<<< HEAD
         {
             _dbContext = new ApplicationDbContext();
-=======
-        {
-            _dbContext = new ApplicationDbContext();
-        }
-        public ActionResult Index()
-        {
-            var upcominngCourses = _dbContext.Courses
-                .Include(c => c.Lecturer)
-                .Include(c => c.Category).Where(c => c.DateTime > DateTime.Now);
-            return View(upcominngCourses);
-
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
         }
         public ActionResult Index()
         {
