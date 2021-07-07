@@ -1,10 +1,13 @@
 ﻿@model BigSchool.ViewModels.CourseViewModel
-@*@model IEnumerable<BigSchool.Models.Course>*@
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Attending";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<h2>Attending</h2>
+
 <div class="row">
-    <ul class="course">
+    <ul class="courses">
         @foreach (var course in Model.UpcommingCourses)
         {
             <li>
@@ -68,10 +71,3 @@
         });
     });
 </script>
-
-
-
-@*Development
-    Business
-    Marketing*@
-

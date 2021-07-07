@@ -2,6 +2,17 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
+/*nacbar new bui van bao*/
+.navbar-inverse{
+    background-color:orangered;
+    border-color:aliceblue;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:blue;
+}
+.navbar-inverse .navbar-brand{
+    color: aqua;
+}
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -21,4 +32,33 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+///////////
+.courses{
+    list-style:none;
+}
+.courses > li{
+    position:relative;
+    margin-bottom: 30px;
+}
+.courses > li .date {
+    text-align:center;
+    background-color:orange;
+    color:white;
+    width:70px;
+    border-radius: 9px;
+}
+.courses >li .details{
+    position:absolute;
+    top:0px;
+    left:90px ;
+}
+.courses >li .action{
+    display:none;
+    left:70px;
+    position:absolute;
+}
+.courses >li:hover   .action{
+    display:block;
 }
