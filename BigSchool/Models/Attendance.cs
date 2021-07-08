@@ -16,6 +16,18 @@ namespace BigSchool.Models
         public ApplicationUser Attendee { get; set; }
         [Key]
         [Column(Order =2)]
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         public string AttendeeId { get; set; }
+=======
+        public ApplicationUser AttendeeId { get; set; }
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+        public ApplicationUser AttendeeId { get; set; }
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+        public ApplicationUser AttendeeId { get; set; }
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
     }
 }

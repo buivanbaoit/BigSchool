@@ -1,6 +1,18 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
+=======
+﻿using System.ComponentModel.DataAnnotations;
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+﻿using System.ComponentModel.DataAnnotations;
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+﻿using System.ComponentModel.DataAnnotations;
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -15,6 +27,9 @@ namespace BigSchool.Models
         [Required]
         [StringLength(255)]
          public string Name { get; set; }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         public ICollection<Following> Followers { get; set; }
         public ICollection<Following> Followees { get; set; }
         public ApplicationUser()
@@ -22,6 +37,12 @@ namespace BigSchool.Models
             Followers = new Collection<Following>();
             Followees = new Collection<Following>();
         }
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType

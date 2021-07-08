@@ -12,7 +12,16 @@ namespace BigSchool.Models
         public DbSet<Course> Courses { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Attendance> Attendances { get; set; }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
         public DbSet<Following> Followings { get; set; }
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
@@ -28,6 +37,9 @@ namespace BigSchool.Models
                 .HasRequired(a => a.Course)
                 .WithMany()
                 .WillCascadeOnDelete(false);
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
             modelBuilder.Entity<ApplicationUser>()
                 .HasMany(u => u.Followers)
                 .WithRequired(f => f.Followee)
@@ -36,6 +48,12 @@ namespace BigSchool.Models
                 .HasMany(u => u.Followees)
                 .WithRequired(f => f.Follower)
                 .WillCascadeOnDelete(false);
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
             base.OnModelCreating(modelBuilder);
         }
     }
