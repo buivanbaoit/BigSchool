@@ -54,6 +54,7 @@ textarea {
     top:0px;
     left:90px ;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 .courses >li .action{
     display:none;
@@ -62,6 +63,8 @@ textarea {
 }
 .courses >li:hover   .action{
     display:block;
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 =======
 >>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 }

@@ -206,6 +206,7 @@
       <DependentUpon>202107051642218_AddNameColumnToApplicationUser.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Migrations\202107060001257_AddAttendance.cs" />
     <Compile Include="Migrations\202107060001257_AddAttendance.Designer.cs">
       <DependentUpon>202107060001257_AddAttendance.cs</DependentUpon>
@@ -214,6 +215,8 @@
     <Compile Include="Migrations\202107071606265_AddFollowingsTable.Designer.cs">
       <DependentUpon>202107071606265_AddFollowingsTable.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 =======
 >>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
     <Compile Include="Migrations\Configuration.cs" />
@@ -323,12 +326,15 @@
       <DependentUpon>202107051642218_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\202107060001257_AddAttendance.resx">
       <DependentUpon>202107060001257_AddAttendance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107071606265_AddFollowingsTable.resx">
       <DependentUpon>202107071606265_AddFollowingsTable.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 =======
 >>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
   </ItemGroup>
