@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BigSchool",
+    "\\BigSchool\\App_Data",
+    "\\BigSchool\\Migrations",
+    "\\BigSchool\\Models",
+    "\\BigSchool\\Properties",
+    "\\BigSchool\\ViewModels",
+    "\\BigSchool\\Views",
+    "\\BigSchool\\Views\\Home",
+    "\\packages"
+  ],
+  "SelectedNode": "\\BigSchool\\Content\\Site.css",
+  "PreviewInSolutionExplorer": true
+}
