@@ -49,25 +49,16 @@ textarea {
     width:70px;
     border-radius: 9px;
 }
-.courses >li .details{
-    position:absolute;
-    top:0px;
-    left:90px ;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
+    .courses > li .details {
+        position: absolute;
+        top: 0px;
+        left: 90px;
+    }
 .courses >li .action{
     display:none;
     left:70px;
     position:absolute;
 }
-.courses >li:hover   .action{
-    display:block;
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-}
+    .courses > li:hover .action {
+        display: block;
+    }

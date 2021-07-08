@@ -1,72 +1,37 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ﻿@model BigSchool.ViewModels.CourseViewModel
 @*@model IEnumerable<BigSchool.Models.Course>*@
-=======
 ﻿@model IEnumerable<BigSchool.Models.Course>
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
 ﻿@model IEnumerable<BigSchool.Models.Course>
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
 ﻿@model IEnumerable<BigSchool.Models.Course>
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 @{
     ViewBag.Title = "Home Page";
 }
 <div class="row">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <ul class="course">
         @foreach (var course in Model.UpcommingCourses)
-=======
+
     <ul class="courses">
         @foreach (var courses in Model)
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
     <ul class="courses">
         @foreach (var courses in Model)
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
     <ul class="courses">
         @foreach (var courses in Model)
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
         {
             <li>
                 <div class="date">
                     <div class="moth">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         @course.DateTime.ToString("MM")
                     </div>
                     <div class="day">
                         @course.DateTime.ToString("dd")
-=======
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
                         @courses.DateTime.ToString("MM")
                     </div>
                     <div class="day">
                         @courses.DateTime.ToString("dd")
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
                     </div>
                 </div>
                 <div class="details">
                     <span class="lecturer">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                         @course.Lecturer.Name
                         @if (Model.ShowAction)
                         {
@@ -80,32 +45,17 @@
                     {
                         <button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attandance">Going?</button>
                     }
-=======
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
                         @courses.Lecturer.Name
                     </span>
                     <span class="category">
                         @courses.Category.Name
                     </span>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
                 </div>
             </li>
 
         }
     </ul>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 @Session script
     {
 <script>
@@ -144,23 +94,8 @@
     Business
     Marketing*@
 
-=======
-Development
-Business
-Marketing
 
-=======
-Development
-Business
-Marketing
 
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
-Development
-Business
-Marketing
-
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 @*<div class="jumbotron">
         <h1>ASP.NET</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
@@ -190,10 +125,3 @@ Marketing
 <<<<<<< HEAD
 <<<<<<< HEAD
     </div>*@
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
-    </div>*@
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
-=======
-    </div>*@
->>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
