@@ -1,8 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
+=======
+﻿using System.ComponentModel.DataAnnotations;
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 =======
 ﻿using System.ComponentModel.DataAnnotations;
 >>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
@@ -25,6 +29,7 @@ namespace BigSchool.Models
          public string Name { get; set; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public ICollection<Following> Followers { get; set; }
         public ICollection<Following> Followees { get; set; }
         public ApplicationUser()
@@ -32,6 +37,8 @@ namespace BigSchool.Models
             Followers = new Collection<Following>();
             Followees = new Collection<Following>();
         }
+=======
+>>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 =======
 >>>>>>> 5ab4a5e12a3212340facf04d930f3a1621409ff2
 =======
